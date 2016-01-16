@@ -1,0 +1,312 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$brief-case-name: 'brief-case';
+$brief-case-x: 20px;
+$brief-case-y: 120px;
+$brief-case-offset-x: -20px;
+$brief-case-offset-y: -120px;
+$brief-case-width: 21px;
+$brief-case-height: 19px;
+$brief-case-total-width: 194px;
+$brief-case-total-height: 140px;
+$brief-case-image: '../img/sprites/sprite.png';
+$brief-case: (20px, 120px, -20px, -120px, 21px, 19px, 194px, 140px, '../img/sprites/sprite.png', 'brief-case', );
+$contact-mail-name: 'contact-mail';
+$contact-mail-x: 116px;
+$contact-mail-y: 80px;
+$contact-mail-offset-x: -116px;
+$contact-mail-offset-y: -80px;
+$contact-mail-width: 39px;
+$contact-mail-height: 38px;
+$contact-mail-total-width: 194px;
+$contact-mail-total-height: 140px;
+$contact-mail-image: '../img/sprites/sprite.png';
+$contact-mail: (116px, 80px, -116px, -80px, 39px, 38px, 194px, 140px, '../img/sprites/sprite.png', 'contact-mail', );
+$contact-phone-name: 'contact-phone';
+$contact-phone-x: 155px;
+$contact-phone-y: 0px;
+$contact-phone-offset-x: -155px;
+$contact-phone-offset-y: 0px;
+$contact-phone-width: 39px;
+$contact-phone-height: 38px;
+$contact-phone-total-width: 194px;
+$contact-phone-total-height: 140px;
+$contact-phone-image: '../img/sprites/sprite.png';
+$contact-phone: (155px, 0px, -155px, 0px, 39px, 38px, 194px, 140px, '../img/sprites/sprite.png', 'contact-phone', );
+$contact-skype-name: 'contact-skype';
+$contact-skype-x: 76px;
+$contact-skype-y: 80px;
+$contact-skype-offset-x: -76px;
+$contact-skype-offset-y: -80px;
+$contact-skype-width: 40px;
+$contact-skype-height: 38px;
+$contact-skype-total-width: 194px;
+$contact-skype-total-height: 140px;
+$contact-skype-image: '../img/sprites/sprite.png';
+$contact-skype: (76px, 80px, -76px, -80px, 40px, 38px, 194px, 140px, '../img/sprites/sprite.png', 'contact-skype', );
+$fb-hover-name: 'fb-hover';
+$fb-hover-x: 0px;
+$fb-hover-y: 40px;
+$fb-hover-offset-x: 0px;
+$fb-hover-offset-y: -40px;
+$fb-hover-width: 38px;
+$fb-hover-height: 40px;
+$fb-hover-total-width: 194px;
+$fb-hover-total-height: 140px;
+$fb-hover-image: '../img/sprites/sprite.png';
+$fb-hover: (0px, 40px, 0px, -40px, 38px, 40px, 194px, 140px, '../img/sprites/sprite.png', 'fb-hover', );
+$fb-name: 'fb';
+$fb-x: 38px;
+$fb-y: 40px;
+$fb-offset-x: -38px;
+$fb-offset-y: -40px;
+$fb-width: 38px;
+$fb-height: 40px;
+$fb-total-width: 194px;
+$fb-total-height: 140px;
+$fb-image: '../img/sprites/sprite.png';
+$fb: (38px, 40px, -38px, -40px, 38px, 40px, 194px, 140px, '../img/sprites/sprite.png', 'fb', );
+$file-name: 'file';
+$file-x: 178px;
+$file-y: 56px;
+$file-offset-x: -178px;
+$file-offset-y: -56px;
+$file-width: 15px;
+$file-height: 20px;
+$file-total-width: 194px;
+$file-total-height: 140px;
+$file-image: '../img/sprites/sprite.png';
+$file: (178px, 56px, -178px, -56px, 15px, 20px, 194px, 140px, '../img/sprites/sprite.png', 'file', );
+$github-hover-name: 'github-hover';
+$github-hover-x: 117px;
+$github-hover-y: 0px;
+$github-hover-offset-x: -117px;
+$github-hover-offset-y: 0px;
+$github-hover-width: 38px;
+$github-hover-height: 40px;
+$github-hover-total-width: 194px;
+$github-hover-total-height: 140px;
+$github-hover-image: '../img/sprites/sprite.png';
+$github-hover: (117px, 0px, -117px, 0px, 38px, 40px, 194px, 140px, '../img/sprites/sprite.png', 'github-hover', );
+$github-name: 'github';
+$github-x: 117px;
+$github-y: 40px;
+$github-offset-x: -117px;
+$github-offset-y: -40px;
+$github-width: 38px;
+$github-height: 40px;
+$github-total-width: 194px;
+$github-total-height: 140px;
+$github-image: '../img/sprites/sprite.png';
+$github: (117px, 40px, -117px, -40px, 38px, 40px, 194px, 140px, '../img/sprites/sprite.png', 'github', );
+$graduate-name: 'graduate';
+$graduate-x: 155px;
+$graduate-y: 38px;
+$graduate-offset-x: -155px;
+$graduate-offset-y: -38px;
+$graduate-width: 27px;
+$graduate-height: 18px;
+$graduate-total-width: 194px;
+$graduate-total-height: 140px;
+$graduate-image: '../img/sprites/sprite.png';
+$graduate: (155px, 38px, -155px, -38px, 27px, 18px, 194px, 140px, '../img/sprites/sprite.png', 'graduate', );
+$icloud-down-name: 'icloud-down';
+$icloud-down-x: 155px;
+$icloud-down-y: 77px;
+$icloud-down-offset-x: -155px;
+$icloud-down-offset-y: -77px;
+$icloud-down-width: 26px;
+$icloud-down-height: 18px;
+$icloud-down-total-width: 194px;
+$icloud-down-total-height: 140px;
+$icloud-down-image: '../img/sprites/sprite.png';
+$icloud-down: (155px, 77px, -155px, -77px, 26px, 18px, 194px, 140px, '../img/sprites/sprite.png', 'icloud-down', );
+$locked-name: 'locked';
+$locked-x: 176px;
+$locked-y: 95px;
+$locked-offset-x: -176px;
+$locked-offset-y: -95px;
+$locked-width: 18px;
+$locked-height: 21px;
+$locked-total-width: 194px;
+$locked-total-height: 140px;
+$locked-image: '../img/sprites/sprite.png';
+$locked: (176px, 95px, -176px, -95px, 18px, 21px, 194px, 140px, '../img/sprites/sprite.png', 'locked', );
+$login-key-name: 'login-key';
+$login-key-x: 40px;
+$login-key-y: 0px;
+$login-key-offset-x: -40px;
+$login-key-offset-y: 0px;
+$login-key-width: 39px;
+$login-key-height: 40px;
+$login-key-total-width: 194px;
+$login-key-total-height: 140px;
+$login-key-image: '../img/sprites/sprite.png';
+$login-key: (40px, 0px, -40px, 0px, 39px, 40px, 194px, 140px, '../img/sprites/sprite.png', 'login-key', );
+$login-mail-name: 'login-mail';
+$login-mail-x: 0px;
+$login-mail-y: 0px;
+$login-mail-offset-x: 0px;
+$login-mail-offset-y: 0px;
+$login-mail-width: 40px;
+$login-mail-height: 40px;
+$login-mail-total-width: 194px;
+$login-mail-total-height: 140px;
+$login-mail-image: '../img/sprites/sprite.png';
+$login-mail: (0px, 0px, 0px, 0px, 40px, 40px, 194px, 140px, '../img/sprites/sprite.png', 'login-mail', );
+$polaroid-name: 'polaroid';
+$polaroid-x: 0px;
+$polaroid-y: 120px;
+$polaroid-offset-x: 0px;
+$polaroid-offset-y: -120px;
+$polaroid-width: 20px;
+$polaroid-height: 20px;
+$polaroid-total-width: 194px;
+$polaroid-total-height: 140px;
+$polaroid-image: '../img/sprites/sprite.png';
+$polaroid: (0px, 120px, 0px, -120px, 20px, 20px, 194px, 140px, '../img/sprites/sprite.png', 'polaroid', );
+$school-name: 'school';
+$school-x: 155px;
+$school-y: 95px;
+$school-offset-x: -155px;
+$school-offset-y: -95px;
+$school-width: 21px;
+$school-height: 21px;
+$school-total-width: 194px;
+$school-total-height: 140px;
+$school-image: '../img/sprites/sprite.png';
+$school: (155px, 95px, -155px, -95px, 21px, 21px, 194px, 140px, '../img/sprites/sprite.png', 'school', );
+$tag-point-name: 'tag_point';
+$tag-point-x: 182px;
+$tag-point-y: 38px;
+$tag-point-offset-x: -182px;
+$tag-point-offset-y: -38px;
+$tag-point-width: 11px;
+$tag-point-height: 11px;
+$tag-point-total-width: 194px;
+$tag-point-total-height: 140px;
+$tag-point-image: '../img/sprites/sprite.png';
+$tag-point: (182px, 38px, -182px, -38px, 11px, 11px, 194px, 140px, '../img/sprites/sprite.png', 'tag_point', );
+$twitter-hover-name: 'twitter-hover';
+$twitter-hover-x: 0px;
+$twitter-hover-y: 80px;
+$twitter-hover-offset-x: 0px;
+$twitter-hover-offset-y: -80px;
+$twitter-hover-width: 38px;
+$twitter-hover-height: 40px;
+$twitter-hover-total-width: 194px;
+$twitter-hover-total-height: 140px;
+$twitter-hover-image: '../img/sprites/sprite.png';
+$twitter-hover: (0px, 80px, 0px, -80px, 38px, 40px, 194px, 140px, '../img/sprites/sprite.png', 'twitter-hover', );
+$twitter-name: 'twitter';
+$twitter-x: 38px;
+$twitter-y: 80px;
+$twitter-offset-x: -38px;
+$twitter-offset-y: -80px;
+$twitter-width: 38px;
+$twitter-height: 40px;
+$twitter-total-width: 194px;
+$twitter-total-height: 140px;
+$twitter-image: '../img/sprites/sprite.png';
+$twitter: (38px, 80px, -38px, -80px, 38px, 40px, 194px, 140px, '../img/sprites/sprite.png', 'twitter', );
+$unlocked-name: 'unlocked';
+$unlocked-x: 155px;
+$unlocked-y: 56px;
+$unlocked-offset-x: -155px;
+$unlocked-offset-y: -56px;
+$unlocked-width: 23px;
+$unlocked-height: 21px;
+$unlocked-total-width: 194px;
+$unlocked-total-height: 140px;
+$unlocked-image: '../img/sprites/sprite.png';
+$unlocked: (155px, 56px, -155px, -56px, 23px, 21px, 194px, 140px, '../img/sprites/sprite.png', 'unlocked', );
+$vk-hover-name: 'vk-hover';
+$vk-hover-x: 76px;
+$vk-hover-y: 40px;
+$vk-hover-offset-x: -76px;
+$vk-hover-offset-y: -40px;
+$vk-hover-width: 38px;
+$vk-hover-height: 40px;
+$vk-hover-total-width: 194px;
+$vk-hover-total-height: 140px;
+$vk-hover-image: '../img/sprites/sprite.png';
+$vk-hover: (76px, 40px, -76px, -40px, 38px, 40px, 194px, 140px, '../img/sprites/sprite.png', 'vk-hover', );
+$vk-name: 'vk';
+$vk-x: 79px;
+$vk-y: 0px;
+$vk-offset-x: -79px;
+$vk-offset-y: 0px;
+$vk-width: 38px;
+$vk-height: 40px;
+$vk-total-width: 194px;
+$vk-total-height: 140px;
+$vk-image: '../img/sprites/sprite.png';
+$vk: (79px, 0px, -79px, 0px, 38px, 40px, 194px, 140px, '../img/sprites/sprite.png', 'vk', );
+$spritesheet-width: 194px;
+$spritesheet-height: 140px;
+$spritesheet-image: '../img/sprites/sprite.png';
+$spritesheet-sprites: ($brief-case, $contact-mail, $contact-phone, $contact-skype, $fb-hover, $fb, $file, $github-hover, $github, $graduate, $icloud-down, $locked, $login-key, $login-mail, $polaroid, $school, $tag-point, $twitter-hover, $twitter, $unlocked, $vk-hover, $vk, );
+$spritesheet: (194px, 140px, '../img/sprites/sprite.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

@@ -1,0 +1,682 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fr",
+				"_framework.scss"
+			],
+			[
+				"la",
+				"_layout.scss"
+			],
+			[
+				"ty",
+				"_typography.scss"
+			],
+			[
+				"d",
+				"duration"
+			],
+			[
+				"a",
+				"animate"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"c",
+				"content"
+			],
+			[
+				"ge",
+				"genderMale"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"brow",
+				"browserSync"
+			],
+			[
+				"ht",
+				"html:build"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"logo",
+				"i.logo"
+			],
+			[
+				"de",
+				"dest"
+			],
+			[
+				"p",
+				"pipe"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"di",
+				"d-i	display: inline;"
+			],
+			[
+				"blo",
+				"inline-block"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"bg",
+				"bgc	background-color: #${1:fff};"
+			],
+			[
+				"ls",
+				"letter-spacing"
+			],
+			[
+				"e",
+				"lighter"
+			],
+			[
+				"lh",
+				"lh	line-height"
+			],
+			[
+				"pr",
+				"pos-r	position: relative;"
+			],
+			[
+				"o",
+				"outer	outer-container"
+			],
+			[
+				"tea",
+				"text-align"
+			],
+			[
+				"no",
+				"_normalize.scss"
+			],
+			[
+				"bou",
+				"_bourbon-deprecated-upcoming.scss"
+			],
+			[
+				"bo",
+				"bourbon/"
+			],
+			[
+				"bow",
+				"bower_components/"
+			],
+			[
+				"s",
+				"sprites/"
+			],
+			[
+				"ba",
+				"base.scss"
+			],
+			[
+				"pa",
+				"partials/"
+			],
+			[
+				"b",
+				"both"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"ted",
+				"text-decoration"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 218.0,
+		"last_filter": "qui",
+		"selected_items":
+		[
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"gulp",
+				"Gulp: Run arbitrary task"
+			],
+			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"quic",
+				"Git: Quick Commit"
+			],
+			[
+				"github",
+				"Github: History"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Github: Plugin Settings"
+			],
+			[
+				"css",
+				"CSS Completions: Prune Cache"
+			],
+			[
+				"css ",
+				"CSS Completions: Delete Cache"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"bg",
+				"Snippet: bg_fullsize"
+			],
+			[
+				"gu",
+				"Gulp"
+			],
+			[
+				"emm",
+				"Set Syntax: Emmet"
+			],
+			[
+				"g",
+				"Gulp"
+			],
+			[
+				"fe",
+				"Fetch: Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"gul",
+				"Gulp"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html-div"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bgf",
+				"Snippet: bg_fullsize"
+			],
+			[
+				"seja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Snippet: Comment - HTML comment"
+			],
+			[
+				"com",
+				"Snippet: Comment - Section header comment"
+			],
+			[
+				"comme",
+				"Snippet: Comment - Section header comment"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"gulpk",
+				"Gulp: Kill running tasks"
+			],
+			[
+				"gulp ki",
+				"Gulp: Kill running tasks"
+			],
+			[
+				"set ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst	",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/saryk/MEGAsync/loftschool/ВП 1 - Сайт портфолио/portfolio_dz"
+	],
+	"file_history":
+	[
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/bower.json",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/main.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/index.html",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/config/_grid.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/config/_variables.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/layout/_layout.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/components/_components.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/base/_layout.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/base/_base.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/gulpfile.js",
+		"/media/saryk/6622E90722E8DD55/Edu/Loftschool/v2-clean/style.css",
+		"/media/saryk/6622E90722E8DD55/Edu/Loftschool/v2-clean/figure.html",
+		"/tmp/fz3temp-1/index.html",
+		"/home/saryk/.config/sublime-text-3/Packages/Gist/Gist.sublime-settings",
+		"/media/saryk/6622E90722E8DD55/Edu/Loftschool/v2-clean/index.html",
+		"/media/saryk/6622E90722E8DD55/Edu/Loftschool/v2-clean/main.js",
+		"/home/saryk/.config/sublime-text-3/Packages/User/Gist.sublime-settings",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/config/_mixins.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/components/_buttons.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/base/_typography.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/README.md",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/base/_fonts.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/base/_normalize.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/components/_sprites.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/layout/_header.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/package.json",
+		"/home/saryk/MEGAsync/boilerplate/test/src/index.html",
+		"/home/saryk/MEGAsync/boilerplate/test/gulpfile.js",
+		"/home/saryk/MEGAsync/boilerplate/test/package.json",
+		"/home/saryk/MEGAsync/boilerplate/test/src/style/main.scss",
+		"/home/saryk/MEGAsync/boilerplate/test/src/style/utils/_sprite.scss",
+		"/home/saryk/MEGAsync/boilerplate/test/app/index.html",
+		"/home/saryk/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/saryk/.config/sublime-text-3/Packages/User/Github Tools.sublime-settings",
+		"/home/saryk/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+		"/home/saryk/MEGAsync/boilerplate/test/app/css/main.css",
+		"/home/saryk/.config/sublime-text-3/Packages/CSS Extended Completions/css_style_completions.sublime-settings",
+		"/home/saryk/MEGAsync/boilerplate/test/src/style/utils/_sprites.scss",
+		"/home/saryk/MEGAsync/boilerplate/test/npm-debug.log",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/utils/_sprites.scss",
+		"/home/saryk/MEGAsync/JavaScript/lesson1/index.html",
+		"/media/saryk/6622E90722E8DD55/Edu/app/index.html",
+		"/media/saryk/6622E90722E8DD55/Edu/app/css/main.css",
+		"/home/saryk/MEGAsync/loftschool/reserv/app/index.html",
+		"/home/saryk/MEGAsync/loftschool/reserv/app/img/sprite.scss",
+		"/home/saryk/MEGAsync/loftschool/reserv/app/css/main.css",
+		"/home/saryk/MEGAsync/loftschool/test/src/sprites/sprite.png",
+		"/home/saryk/MEGAsync/loftschool/test/src/sprites/sprite.scss",
+		"/home/saryk/MEGAsync/loftschool/test/app/css/main.css",
+		"/home/saryk/MEGAsync/loftschool/test/app/index.html",
+		"/home/saryk/MEGAsync/Fjord/src/template/header.html",
+		"/home/saryk/MEGAsync/loftschool/test/src/template/header.html",
+		"/home/saryk/MEGAsync/loftschool/test/src/style/main.scss",
+		"/home/saryk/MEGAsync/loftschool/test/src/style/base/_normalize.scss",
+		"/home/saryk/MEGAsync/loftschool/test/src/index.html",
+		"/home/saryk/MEGAsync/loftschool/test/README.md",
+		"/home/saryk/MEGAsync/loftschool/test/bower.json",
+		"/home/saryk/MEGAsync/JavaScript/lesson1/js/main.js",
+		"/home/saryk/MEGAsync/codecademy/Shutterbugg/index.html",
+		"/home/saryk/MEGAsync/codecademy/Shutterbugg/css/style.css",
+		"/home/saryk/.config/sublime-text-3/Packages/User/Default (Linux).sublime.keymap",
+		"/home/saryk/MEGAsync/Fjord/src/style/modules/_navigations.scss",
+		"/home/saryk/MEGAsync/Fjord/src/style/layout/partials/_header.scss",
+		"/home/saryk/MEGAsync/Fjord/src/style/main.scss",
+		"/home/saryk/.config/sublime-text-3/Packages/AceJump/Default (Linux).sublime.keymap",
+		"/home/saryk/MEGAsync/Fjord/src/style/modules/_icons.scss",
+		"/home/saryk/MEGAsync/Fjord/src/index.html",
+		"/home/saryk/MEGAsync/Fjord/untitled.css",
+		"/home/saryk/MEGAsync/Fjord/src/style/base/_typography.scss",
+		"/home/saryk/MEGAsync/Fjord/app/index.html",
+		"/home/saryk/MEGAsync/Fjord/src/style/utils/_sprites.scss",
+		"/home/saryk/MEGAsync/Fjord/src/style/layout/_partials.scss",
+		"/home/saryk/MEGAsync/Fjord/src/style/base/_base.scss",
+		"/home/saryk/MEGAsync/Fjord/src/template/iphone-block.html",
+		"/home/saryk/MEGAsync/Fjord/src/template/features.html",
+		"/home/saryk/MEGAsync/Fjord/bower_components/normalize.css/normalize.css",
+		"/home/saryk/MEGAsync/Fjord/src/style/base/_normalize.scss",
+		"/home/saryk/MEGAsync/boilerplate/bp/src/style/layout/_grid.scss",
+		"/home/saryk/MEGAsync/boilerplate/qsm-v1.1.0/src/style/layout/_grid.scss",
+		"/home/saryk/MEGAsync/boilerplate/bp/src/style/main.scss",
+		"/home/saryk/MEGAsync/boilerplate/bp/src/style/layout/_header.scss",
+		"/home/saryk/MEGAsync/boilerplate/bp/src/index.html",
+		"/home/saryk/MEGAsync/boilerplate/bp/src/style/modules/_icons.scss",
+		"/home/saryk/MEGAsync/boilerplate/bp/app/css/main.css",
+		"/home/saryk/MEGAsync/boilerplate/bp/src/style/base/_normalize.scss",
+		"/home/saryk/MEGAsync/boilerplate/bp/src/style/utils/_mixins.scss",
+		"/home/saryk/MEGAsync/boilerplate/bp/app/index.html",
+		"/home/saryk/MEGAsync/boilerplate/bp/bower.json",
+		"/home/saryk/MEGAsync/boilerplate/bp/gulpfile.js",
+		"/home/saryk/MEGAsync/boilerplate/bp/src/style/utils/_sprites.scss",
+		"/home/saryk/.config/sublime-text-3/Packages/User/Fetch.sublime-settings",
+		"/home/saryk/MEGAsync/boilerplate/QSM/src/style/partials/base.scss",
+		"/home/saryk/MEGAsync/boilerplate/frontend-devil-master/src/template/footer.html",
+		"/home/saryk/MEGAsync/boilerplate/frontend-devil-master/package.json",
+		"/home/saryk/MEGAsync/boilerplate/frontend-devil-master/bower.json",
+		"/home/saryk/MEGAsync/boilerplate/frontend-devil-master/README.md",
+		"/home/saryk/MEGAsync/boilerplate/frontend-devil-master/app/sprite/sprite.scss",
+		"/home/saryk/MEGAsync/boilerplate/frontend-devil-master/src/index.html",
+		"/home/saryk/MEGAsync/boilerplate/frontend-devil-master/src/style/partials/base.scss",
+		"/home/saryk/MEGAsync/boilerplate/frontend-devil-master/gulpfile.js",
+		"/home/saryk/MEGAsync/boilerplate/frontend-devil-master/src/style/main.scss",
+		"/home/saryk/MEGAsync/boilerplate/QSM/src/index.html",
+		"/home/saryk/MEGAsync/boilerplate/frontend-devil-master/app/css/main.css",
+		"/home/saryk/MEGAsync/boilerplate/frontend-devil-master/src/style/partials/_base.scss",
+		"/home/saryk/MEGAsync/boilerplate/gg/package.json",
+		"/home/saryk/MEGAsync/Fjord/basic.css",
+		"/home/saryk/Документы/22/ColorHighlighter.sublime-settings",
+		"/home/saryk/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/saryk/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/saryk/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/home/saryk/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+		"/home/saryk/.kde/cache-Rosenrot/krun/11513_0_ColorHighlighter.sublime-settings",
+		"/home/saryk/MEGAsync/codecademy/Move/index.html",
+		"/home/saryk/MEGAsync/codecademy/Move/css/main.css",
+		"/home/saryk/MEGAsync/codecademy/Move/css/style.css",
+		"/home/saryk/.config/sublime-text-3/Packages/User/comment.sublime-snippet",
+		"/home/saryk/.config/sublime-text-3/Packages/User/bg_fullsize.sublime-snippet",
+		"/home/saryk/MEGAsync/gl/css/style.css",
+		"/home/saryk/MEGAsync/gl/node_modules/gulp-minify-css/node_modules/clean-css/lib/utils/source-tracker.js",
+		"/home/saryk/MEGAsync/gl/css/main.min.css",
+		"/home/saryk/MEGAsync/gl/node_modules/gulp-concat-css/node_modules/rework/node_modules/css/node_modules/source-map-resolve/node_modules/source-map-url/source-map-url.js",
+		"/home/saryk/.config/sublime-text-3/Packages/User/html-div.sublime-snippet",
+		"/home/saryk/MEGAsync/gl/.sublime-gulp.cache",
+		"/home/saryk/.config/sublime-text-3/Packages/Gulp/Gulp.sublime-settings",
+		"/home/saryk/MEGAsync/gl/style/main.min.css",
+		"/home/saryk/MEGAsync/gl/style/style.css",
+		"/home/saryk/MEGAsync/gl/css/font.css",
+		"/home/saryk/MEGAsync/gl/package.json"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$code-font-stack: 'Ubuntu Mono', 'Monaco', monospace !default;",
+			".sidebar-menu a:last-child {\n	border-bottom:  none;\n}",
+			"lighter",
+			"normal",
+			"FEATURES",
+			"build",
+			"f12",
+			"default_browser",
+			"browser",
+			"open_in",
+			"icon"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"montserrat"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 110.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 122.0
+	},
+	"output.gulp_output":
+	{
+		"height": 106.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio_dz.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sty",
+				"css/style.css"
+			],
+			[
+				"mai",
+				"css/main.min.css"
+			],
+			[
+				"",
+				"scss/style.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
