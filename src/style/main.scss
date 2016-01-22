@@ -35,16 +35,15 @@
 =            Helpers            =
 ===============================*/
 
-.clearfix:before, .clearfix::after{
+/* .clearfix:before, .clearfix::after{
   content: " ";
   display: table;
 }
 .clearfix:after{
   clear:both;
 }
+ */
 
-
-/* 
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -55,7 +54,7 @@
      }
 .clearfix { display: inline-block; }
 * html .clearfix { height: 1%; }
-.clearfix { display: block; } */
+.clearfix { display: block; }
 
 .logo-text {				//Hide logo text SEO
 	position: absolute;

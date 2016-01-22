@@ -17,19 +17,23 @@ var path = {
         html: 'dist/',
         css: 'dist/css/',
         img: 'dist/img/',
-        fonts: 'dist/fonts/'
+        fonts: 'dist/fonts/',
+        js: 'dist/js/'
     },
     src: {
         html: 'src/*.html',
         style: 'src/style/main.scss',
         img: 'src/img/**/*.*',
-        fonts: 'src/fonts/**/*.*'
+        fonts: 'src/fonts/**/*.*',
+        js: 'src/js/**/*.*'
     },
     watch: {
         html: 'src/**/*.html',
         style: 'src/style/**/*.scss',
         img: 'src/img/**/*.*',
-        fonts: 'src/fonts/**/*.*'
+        fonts: 'src/fonts/**/*.*',
+        js: 'src/js/**/*.*'
+
     },
     clean: './dist'
 };
@@ -91,6 +95,7 @@ gulp.task('image:build', function () {
 
 
 
+// Fonts build
 
 gulp.task('fonts:build', function() {
     gulp.src(path.src.fonts)
@@ -98,11 +103,21 @@ gulp.task('fonts:build', function() {
 });
 
 
+
+// JS build
+
+gulp.task('js:build', function() {
+    gulp.src(path.src.js)
+        .pipe(gulp.dest(path.build.js))
+});
+
+
 gulp.task('build', [
     'html:build',
     'style:build',
     'fonts:build',
-    'image:build'
+    'image:build',
+    'js:build'
 ]);
 
 
