@@ -10,10 +10,22 @@
 
 // Regular font family
 
-$font-family-base: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
-$font-size-base: 14px !default;
-$font-size-large: ceil(($font-size-base * 1.25)) !default;
-$font-size-small: ceil(($font-size-base * 0.85)) !default;
+$font-family-light: 'open_sanslight';
+$font-family-regular: 'open_sansregular', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$font-family-semibold: 'open_sanssemibold';
+$font-family-bold: 'open_sansbold';
+$font-family-extrabold: 'open_sansextrabold';
+
+$font-family-light-italic: 'open_sanslight_italic';
+$font-family-italic: 'open_sansitalic';
+$font-family-semibold-italic: 'open_sanssemibold_italic';
+$font-family-bold-italic: 'open_sansbold_italic';
+$font-family-extrabold-italic: 'open_sansextrabold_italic';
+
+
+$font-size-regular: 14px !default;
+$font-size-large: ceil(($font-size-regular * 1.25)) !default;
+$font-size-small: ceil(($font-size-regular * 0.85)) !default;
 
 
 // Code (monospace) font family
@@ -22,12 +34,12 @@ $font-family-code: 'Ubuntu Mono', 'Monaco', monospace !default;
 
 
 // Headings size
-$font-size-h1: floor(($font-size-base * 2.6)) !default;
-$font-size-h2: floor(($font-size-base * 2.15)) !default;
-$font-size-h3: ceil(($font-size-base * 1.7)) !default;
-$font-size-h4: ceil(($font-size-base * 1.25)) !default;
-$font-size-h5: $font-size-base !default;
-$font-size-h6: ceil(($font-size-base * 0.85)) !default;
+$font-size-h1: floor(($font-size-regular * 2.6)) !default;
+$font-size-h2: floor(($font-size-regular * 2.15)) !default;
+$font-size-h3: ceil(($font-size-regular * 1.7)) !default;
+$font-size-h4: ceil(($font-size-regular * 1.25)) !default;
+$font-size-h5: $font-size-regular !default;
+$font-size-h6: ceil(($font-size-regular * 0.85)) !default;
 
 
 /*****************************
@@ -36,16 +48,16 @@ $font-size-h6: ceil(($font-size-base * 0.85)) !default;
 
 // Typography
 
-$text-color: #222 !default;
-$link-color: #790F82 !default;
+$text-color: #727070 !default;
+$link-color: #727070 !default;
 $link-hover-color: lighten($link-color, 20%) !default;
 
 
 
-$primary-color: #1FA09F !default;
+$primary-color: #48bfa1 !default;
 $primary-color-light: lighten($primary-color, 20%) !default;
 $primary-color-dark: darken($primary-color, 20%) !default;
 
-$secondary-color: #0E7914 !default;
+$secondary-color: #e4ba68 !default;
 $secondary-color-light: lighten($secondary-color, 20%) !default;
 $secondary-color-dark: darken($secondary-color, 20%) !default;

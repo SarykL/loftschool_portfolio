@@ -1,0 +1,69 @@
+
+/*=====================================
+=            Header styles            =
+=====================================*/
+
+
+.main-header{
+	background: #737171;
+	height: 81px;
+	padding-top: 10px;
+	border-bottom: 7px solid #fff;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+	margin-left: 9px;
+	float: left;
+}
+
+.logo-img {
+	max-height: 71px;
+	max-width: 95px;
+}
+
+.social { 
+	float: right;
+	vertical-align: middle;
+	// padding-right: 100px;
+	margin: 17px 0 0 0;
+	list-style: none;
+}
+
+.social-item {
+	display: inline-block;
+	&-link {
+		margin-left: 7px;
+		display: block;	
+	}
+}
+
+.fb {
+	@include sprite($fb);
+	&:hover {
+		@include sprite($fb-hover);
+	}
+}
+
+.vk {
+	@include sprite($vk);
+	&:hover {
+		@include sprite($vk-hover);
+	}
+}
+
+.twitter {
+	@include sprite($twitter);
+	&:hover {
+		@include sprite($twitter-hover);
+	}
+}
+
+.github {
+	@include sprite($github);
+	&:hover {
+		@include sprite($github-hover);
+	}
+}
+
+/*=====  End of Header styles  ======*/

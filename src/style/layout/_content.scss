@@ -1,0 +1,32 @@
+/*----------  Main content  ----------*/
+
+.main-content {
+	float: left;
+}
+
+.content-area {
+	margin-bottom: 31px;
+	width: 649px;
+	border-radius: 6px;
+	background-color: #f5f4f3;
+	border: 1px solid #9c9c9c;
+	box-shadow: 0 1px 5px rgba(236, 232, 227, 0.25), inset 0 1px 1px white;
+}
+
+.content-header {
+	background-color: #727070;
+    background-image: linear-gradient(to top, #7b7878 0%, #7b7878 0%, #a9a8a8 100%);
+	border-bottom: 1px solid #666;
+	box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35), 0 1px 1px rgba(99, 99, 99, 0.6);
+	border-radius: 5px 5px 0 0;
+}
+
+.content-heading-text {
+	margin: 0 0 0 42px;
+	text-shadow: 0 1px 0 #666565;
+	color: #eeedec;
+	font-family: $font-family-bold;
+	font-size: 24px;
+	line-height: 52px;
+}
+/*----------  End Main content  ----------*/

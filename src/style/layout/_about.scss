@@ -1,0 +1,204 @@
+
+/*----------  Basic information  ----------*/
+
+.avatar-wrap {
+	margin-top: 6px;
+	float: left;
+	border-radius: 50%;
+	width: 153px;
+	height: 153px;
+	background-color: #f6f6f5;
+	border: 1px solid rgba(193, 193, 193, 0.67);
+	box-shadow: 3.2px 2.4px 26.9px 5.1px rgba(234, 231, 226, 0.75), inset 1px 1.7px 24px rgba(120, 120, 120, 0.23);
+
+}
+
+.avatar-img {
+	border-radius: 50%;
+	border: 10px solid #f4f3f1;
+}
+
+.content-text {
+	margin: 32px 0 0 40px;
+	padding-bottom: 35px;	
+}
+
+.personal-info-list {
+	padding: 0;
+	margin: 0 0 0 33px;
+	float: left;
+	width: 400px;
+	list-style: none;
+	font-size: 14px;
+	color: #727070;
+	font-weight: 400;
+	display: block;
+}
+
+.personal-info-list-item {
+	display: block;
+	line-height: 24px;
+	&:last-child {
+		margin: 15px 0 0 0;
+
+	}
+}
+
+.info-bold {
+	margin-right: 10px;
+	color: #727070;
+	font-family: $font-family-bold;
+	font-size: 14px;
+	float: left;
+}
+
+.skill-badges {
+	padding: 0;
+	width: 220px;
+	display: inline-block;
+}
+
+.badge {
+	background-image: url('../img/badge-02.png');
+	float: left;
+	display: inline-block;
+	font-size:9px;
+	margin-bottom: 3px;
+	color: #1e7465;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
+	text-transform: uppercase;
+	background-repeat: repeat-x;
+	height: 21px;
+	margin-right: 18px;
+	cursor: pointer;
+	&:before{
+		background-image: url('../img/badge-01.png');
+		content:'';
+		min-height: 19px;
+		min-width: 10px;
+		display: inline-block;
+		padding: 0px;
+		vertical-align: middle;
+		top: -3px;
+		right: 8px;
+		position: relative;
+	}
+	&:after {
+		background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAVCAMAAABWpb9yAAAAyVBMVEUEBAQEBAQEBAQEBAQEBATT09MEBATOzs7R0dGlpaW9vb3KysrR0dG+vr6+vr6/v7/Hx8e+vr63t7e4uLi5ubm7u7u/v7/Dw8PLy8vMzMzOzs7S0tLd3d3d3t7i4uLk5OTo5uXp6Ojq6Ofq6ejq6urs6uns7u3t7Ovu7+/v7ezv7+/w7Ovw7u3x7+7x8fDx8fHy8vHy8vLz8O/z8fDz8/Lz8/Pz9PP08vH09PT18/L19fX28/L29PT39fT39fX49vX49vb69/f6+PiLVSfcAAAAEnRSTlMAAQIDBgYJDhc3YXqLkJ3I4/x8NAfCAAAAVUlEQVQIHQXBQQ6DMBADQO+uAalI3Cu1/38dR6hCErszWADU2zn4rXHm61NMr/uS0rFRtinZHJhmD4sdCRoOWop8hOCURwpNGfF09t/VCndTecrIAP4T1DE3MsMuogAAAABJRU5ErkJggg==');
+		content:'';
+		min-height: 19px;
+		min-width: 4px;
+		display: inline-block;
+		padding: 0px;
+		vertical-align: middle;
+		left: 4px;
+		top: -3px;
+		position: relative;
+	}
+}
+
+/*----------  End Basic Information  ----------*/
+
+
+
+/*----------  Expirience  ----------*/
+
+.exp-bold, .edu-bold {
+	color: #727070;
+	font-family: $font-family-bold;
+	font-size: 14px;
+	margin-left: 95px;
+}
+
+.exp-regular, .edu-regular {
+	margin-left: 95px;
+	margin-top: 4px;
+}
+
+.brief-case {
+	&:before {
+		content: "";
+		@include sprite($brief-case);
+		display: block;
+		float: left;
+		position: relative;
+		right: 57px;
+		margin-left: -20px;
+		top: 18px;				
+	}
+}
+
+
+.expirience-list, .education-list {
+	list-style: none;
+	width: 559px;
+	font-family: $font-family-regular;
+	font-size: 14px;
+	color: #727070;
+	padding: 0;
+	margin: 0;
+	&-item {
+		padding-top: 7px;
+		&:before {
+			content: "";
+	 		float: left;
+			width: 54px;
+			height: 54px;
+			box-shadow: inset -1px -1px 0 white, inset 1.5px 1.1px 0 rgba(199, 199, 199, 0.75);
+			border-radius: 50%;
+			background-color: #fff;
+		}
+		&:not(:last-child) {
+			padding-bottom: 22px;
+			margin-bottom: 10px;
+			border-bottom: 2px solid #dbdbda;
+			box-shadow: 0 0 2.6px 0.5px rgba(251, 251, 251, 0.75);			
+		}
+
+	}
+}
+
+
+/*----------  End Expirience  ----------*/
+
+
+/*----------  Education  ----------*/
+
+.school {
+	&:before {
+		content: "";
+		@include sprite($school);
+		display: block;
+		float: left;
+		position: relative;
+		right: 57px;
+		margin-left: -20px;
+		top: 18px;				
+	}
+}
+.graduate {
+	&:before {
+		content: "";
+		@include sprite($graduate);
+		display: block;
+		float: left;
+		position: relative;
+		right: 59px;
+		margin-left: -20px;
+		top: 18px;				
+	}
+}
+.course {
+	&:before {
+		content: "";
+		@include sprite($file);
+		display: block;
+		float: left;
+		position: relative;
+		right: 54px;
+		margin-left: -20px;
+		top: 18px;				
+	}
+}
+
+/*----------  End Eduaction  ----------*/
