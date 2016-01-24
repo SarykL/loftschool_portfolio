@@ -3,14 +3,16 @@
   "version": "1.1.0",
   "homepage": "",
   "authors": [
-	""
+    ""
   ],
   "description": "This boilerplate for html+css markup",
   "moduleType": [
-	"globals"
+    "globals"
   ],
   "license": "MIT",
   "dependencies": {
-"html5shiv": "*"
+    "html5shiv": "*",
+    "jquery": "1.12",
+    "jquery-placeholder": "~2.3.1"
   }
 }
