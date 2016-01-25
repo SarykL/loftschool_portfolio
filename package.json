@@ -1,7 +1,7 @@
 {
-  "name": "QSM",
+  "name": "LS Portfolio",
   "version": "1.1.0",
-  "description": "This boilerplate for html+css markup",
+  "description": "Project #1",
   "dependencies": {
     "gulp": "latest",
     "gulp-autoprefixer": "^3.1.0",
