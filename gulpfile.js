@@ -55,7 +55,7 @@ gulp.task('style:build', function () {
         .pipe(sourcemaps.init())
         .pipe(sass({
             includePaths: ['src/style/'],
-            outputStyle: 'compact',             // 'compact', 'nested', 'expanded', 'compressed'
+            outputStyle: 'expanded',             // 'compact', 'nested', 'expanded', 'compressed'
             sourceMap: true,
             errLogToConsole: true
         }))

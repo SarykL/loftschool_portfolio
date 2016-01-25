@@ -1,3 +1,7 @@
+
+
+/*----------  Sidebar styles  ----------*/
+
 .sidebar {
 	float: left;
 	margin-right: 60px;
@@ -40,6 +44,15 @@
 		}
 		}
 		}
+	}
+}
+
+.active-list-item {
+	background-color: #bfbfbf;
+	background-image: linear-gradient(to top, #3eb799 0%, #7ee8ce 100%);
+	&:hover {
+	background-image: linear-gradient(to top, #7ee8ce 0%, #3eb799 100%);
+
 	}
 }
 
@@ -129,3 +142,7 @@
 	 	margin-left: 19px;
 	}
 }
+
+/*----------  End Sidebar styles  ----------*/
+
+
