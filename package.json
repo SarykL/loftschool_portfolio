@@ -4,6 +4,7 @@
   "description": "Project #1",
   "dependencies": {
     "gulp": "latest",
+    "browser-sync": "^2.11.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-imagemin": "latest",
     "gulp-minify-css": "^1.0.0",

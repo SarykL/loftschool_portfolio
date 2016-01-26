@@ -10,7 +10,9 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     spritesmith = require('gulp.spritesmith'),
     rimraf = require('rimraf'),
-    pngquant = require('imagemin-pngquant');
+    pngquant = require('imagemin-pngquant'),
+    browserSync = require('browser-sync'),
+    reload = browserSync.reload;
 
 var path = {
     build: {
@@ -39,12 +41,29 @@ var path = {
 };
 
 
+// Webserver
+
+var config = {
+    server: {
+        baseDir: "./dist"
+    },
+    host: 'localhost',
+    port: 3000,
+    logPrefix: "Loftschool Project"
+};
+
+gulp.task('webserver', function () {
+    browserSync(config);
+});
+
+
 // Build HTML
 
 gulp.task('html:build', function () {
     gulp.src(path.src.html) 
         .pipe(rigger())
-        .pipe(gulp.dest(path.build.html));
+        .pipe(gulp.dest(path.build.html))
+        .pipe(reload({stream: true}));
 });
 
 
@@ -62,7 +81,8 @@ gulp.task('style:build', function () {
         .pipe(prefixer())
         //.pipe(cssmin())
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest(path.build.css));
+        .pipe(gulp.dest(path.build.css))
+        .pipe(reload({stream: true}));
 });
 
 
@@ -90,7 +110,8 @@ gulp.task('image:build', function () {
             use: [pngquant()],
             interlaced: true
         }))
-        .pipe(gulp.dest(path.build.img));
+        .pipe(gulp.dest(path.build.img))
+        .pipe(reload({stream: true}));
 });
 
 
@@ -109,6 +130,7 @@ gulp.task('fonts:build', function() {
 gulp.task('js:build', function() {
     gulp.src(path.src.js)
         .pipe(gulp.dest(path.build.js))
+        .pipe(reload({stream: true}));
 });
 
 
@@ -128,6 +150,7 @@ gulp.task('clean', function (cb) {
 });
 
 
+
 gulp.task('watch', function(){
     watch([path.watch.html], function(event, cb) {
         gulp.start('html:build');
@@ -144,4 +167,4 @@ gulp.task('watch', function(){
 });
 
 
-gulp.task('default', ['build', 'watch']);
+gulp.task('default', ['build', 'webserver', 'watch']);
