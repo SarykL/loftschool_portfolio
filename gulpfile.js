@@ -47,6 +47,7 @@ var config = {
     server: {
         baseDir: "./dist"
     },
+    tunel: 'true',
     host: 'localhost',
     port: 3000,
     logPrefix: "Loftschool Project"
@@ -93,6 +94,7 @@ gulp.task('sprite', function () {
     imgName: 'sprite.png',
     imgPath: '../img/sprites/sprite.png',
     cssName: '_sprite.scss',
+    algorithm: 'top-down',
     paddingg: 5
   }));
   spriteData.img.pipe(gulp.dest('./dist/img/sprites/'));

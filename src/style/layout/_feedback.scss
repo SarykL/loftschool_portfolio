@@ -16,16 +16,18 @@
 		background-image: linear-gradient(to top, rgba(233, 231, 231, 0.6) 0%, transparent 100%);
 		border: 1px solid #c3c2c2;
 		border-radius: 4px;
+		padding-left: 8px;
+		// padding-right: 6px;
 		@include placeholder {
 			color: #c7c6c6;
 			font-family: $font-family-light;
 			font-size: 12px;
-			padding-left: 11px;
+			padding-left: 7px;
 		}
 }
 
 .input-name, .input-email {
-	width: 191px;
+	width: 183px;
 	margin-right: 18px;
 	line-height: 36px;
 	font-size: 14px;
@@ -33,18 +35,18 @@
 
 .input-msg {
 	resize: none;
-	// padding: 10px 0 0 0;
-	width: 403px;
+	padding-top: 5px;
+	width: 393px;
 	font-size: 14px;
-	height: 172px;
-	margin-bottom: 5px;
+	height: 175px;
+	margin-bottom: 7px;
 	@include placeholder {
 		padding-top: 5px;
 	}
 }
 
 .input-code {
-	width: 190px;
+	width: 182px;
 	margin: 20px 0 0 20px;
 	line-height: 27px;
 	font-size: 14px;
@@ -129,7 +131,7 @@
 }
 
 .feedback-heading{
-	font-family: $font-family-regular;
+	font-family: $font-family-light !important;
 }
 
 
