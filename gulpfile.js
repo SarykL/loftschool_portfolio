@@ -79,7 +79,7 @@ gulp.task('style:build', function () {
             sourceMap: true,
             errLogToConsole: true
         }))
-        .pipe(prefixer())
+        .pipe(prefixer({browsers:['>1%']}))
         //.pipe(cssmin())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.css))
