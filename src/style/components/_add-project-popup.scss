@@ -1,0 +1,91 @@
+.add-project-popup-wrapper {
+	background: rgba(0, 0, 0, 0.4);
+	z-index: 10;
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.add-project-popup-window {
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -182px;
+	margin-top: -233px;
+	width: 364px;
+	min-height: 466px;
+	background-color: #f5f4f3;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.25) 100%);
+	border: 1px solid #c3c2c2;
+	border-radius: 4px;
+	box-shadow: 0 11px 27px rgba(159, 159, 159, 0.75), inset 0 6px 6px white;
+}
+
+.new-project-input {
+	margin: 0 20px 10px 20px;
+}
+
+.input-project {
+	&-name, &-img, &-url, &-description {
+		background-color: #fbfcfd;
+		background-image: linear-gradient(to top, rgba(233, 231, 231, 0.6) 0%, transparent 100%);
+		border: 1px solid #c3c2c2;
+		border-radius: 4px;
+		padding-left: 8px;
+		width: 320px;
+		line-height: 41px;
+		@include placeholder {
+			color: #c7c6c6;
+			font-family: $font-family-light;
+			font-size: 12px;
+			padding-left: 7px;
+		}
+	}
+}
+
+.input-file-wrapper {
+	height: 45px;
+}
+
+.input-project-img {
+	width: 267px;
+	float: left;
+	display: inline-block;
+	border-radius: 4px 0 0 4px;
+	&-file {
+		width: 325px;
+		height: 44px;
+		opacity: 0;
+		filter: alpha(opacity=0);
+		position: relative;
+		top: -43px;
+		z-index: 99999;
+		cursor: pointer;	
+	}
+}
+
+.project-btn-upload {
+	width: 51px;
+	height: 45px;
+	margin-right: -4px;
+	background-color: #fbf9f9;
+	background-image: linear-gradient(to top, #e9e6e5 0%, #fbf9f9 94%, white 100%);
+	border: 1px solid #c3c2c2;
+	border-left: none;
+	box-shadow: inset 0 -2px 3px rgba(41, 41, 41, 0.05), inset 0 0 3px #f6f7f7;
+	float: right;
+	display: inline-block;
+	border-radius: 0 3px 3px 0;
+	padding-top: 6px;
+
+}
+
+.icloud-icon {
+	display: inline-block;
+	@include sprite($icloud-down);
+
+}
