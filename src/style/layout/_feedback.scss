@@ -19,10 +19,9 @@
 		padding-left: 8px;
 		// padding-right: 6px;
 		@include placeholder {
-			color: #c7c6c6;
+			color: #848484;
 			font-family: $font-family-light;
 			font-size: 12px;
-			padding-left: 7px;
 		}
 }
 
@@ -30,6 +29,7 @@
 	width: 183px;
 	margin-right: 18px;
 	line-height: 36px;
+	height: 36px;
 	font-size: 14px;
 }
 
@@ -49,6 +49,7 @@
 	width: 182px;
 	margin: 20px 0 0 20px;
 	line-height: 27px;
+	height: 27px;
 	font-size: 14px;
 	// vertical-align: middle;
 }

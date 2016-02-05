@@ -2,7 +2,7 @@
 	background: rgba(0, 0, 0, 0.4);
 	z-index: 10;
 	position: fixed;
-	display: block;
+	display: none;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -21,12 +21,25 @@
 	background-color: #f5f4f3;
 	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.25) 100%);
 	border: 1px solid #c3c2c2;
-	border-radius: 4px;
+	border-radius: 6px;
 	box-shadow: 0 11px 27px rgba(159, 159, 159, 0.75), inset 0 6px 6px white;
+	&:before {
+		content: "Добавление проекта";
+		position: absolute;
+		top: -20px;
+		left: 22px;
+		font-family: $font-family-light;
+		color: #fff;
+		font-size: 12px;
+	}
 }
 
 .new-project-input {
-	margin: 0 20px 10px 20px;
+	margin: 0 20px 5px 20px;
+}
+
+.new-project-form {
+	margin-top: 20px;
 }
 
 .input-project {
@@ -36,13 +49,14 @@
 		border: 1px solid #c3c2c2;
 		border-radius: 4px;
 		padding-left: 8px;
-		width: 320px;
-		line-height: 41px;
+		width: 311px;
+		height: 39px;
+		line-height: 39px;
+		font-size: 14px;
 		@include placeholder {
 			color: #c7c6c6;
 			font-family: $font-family-light;
 			font-size: 12px;
-			padding-left: 7px;
 		}
 	}
 }
@@ -51,8 +65,14 @@
 	height: 45px;
 }
 
+.input-project-description {
+	resize: none;
+	height: 105px;
+
+}
+
 .input-project-img {
-	width: 267px;
+	width: 259px;
 	float: left;
 	display: inline-block;
 	border-radius: 4px 0 0 4px;
@@ -69,9 +89,9 @@
 }
 
 .project-btn-upload {
-	width: 51px;
-	height: 45px;
-	margin-right: -4px;
+	width: 53px;
+	height: 43px;
+	margin-right: 1px;
 	background-color: #fbf9f9;
 	background-image: linear-gradient(to top, #e9e6e5 0%, #fbf9f9 94%, white 100%);
 	border: 1px solid #c3c2c2;
@@ -88,4 +108,31 @@
 	display: inline-block;
 	@include sprite($icloud-down);
 
+}
+
+.new-project-btn {
+	width: 123px;
+	height: 40px;
+	margin-left: -73px;
+	position: relative;
+	left:50%;
+	top: -1px;
+	border: 1px solid #c3c2c2;
+	font-family: $font-family-bold;
+	font-size: 14px;
+	line-height: 22px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+	border-radius: 5px 4px 4px 5px;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.close-popup {
+	text-decoration: none;
+	float: right;
+	display: block;
+	position: absolute;
+	top: -3px;
+	right: 8px;
+	color: #727070;
+	font-family: $font-family-bold;
 }
