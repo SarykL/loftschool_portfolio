@@ -1,7 +1,8 @@
 {
-  "name": "LS Portfolio",
-  "version": "1.1.0",
-  "description": "Project #1",
+  "name": "loftschool_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio LoftSchool === #### Project №1   #### How to use       1. `git clone` 2. `npm i` 3. Make tea or coffee while downloading 4. `bower i` 5. Move the necessary JS modules to ./src/js/ 6. `gulp sprite`   7. `gulp`",
+  "main": "gulpfile.js",
   "dependencies": {
     "gulp": "latest",
     "browser-sync": "^2.11.0",
@@ -15,5 +16,20 @@
     "gulp-watch": "^4.1.1",
     "imagemin-pngquant": "latest",
     "rimraf": "^2.3.1"
-  }
+    },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarykL/loftschool_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarykL/loftschool_portfolio/issues"
+  },
+  "homepage": "https://github.com/SarykL/loftschool_portfolio#readme"
 }
+
