@@ -1,21 +1,7 @@
-.add-project-popup-wrapper {
-	background: rgba(0, 0, 0, 0.4);
-	z-index: 10;
-	position: fixed;
-	display: none;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
 .add-project-popup-window {
+	display: none;
 	margin: auto;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-left: -182px;
-	margin-top: -233px;
 	width: 364px;
 	min-height: 466px;
 	background-color: #f5f4f3;

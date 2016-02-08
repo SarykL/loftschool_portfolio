@@ -131,6 +131,7 @@ gulp.task('fonts:build', function() {
 
 gulp.task('js:build', function() {
     gulp.src(path.src.js)
+        .pipe(rigger())
         .pipe(gulp.dest(path.build.js))
         .pipe(reload({stream: true}));
 });
