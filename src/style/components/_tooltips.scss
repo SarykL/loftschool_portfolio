@@ -3,51 +3,265 @@
 =========================================*/
 
 #input-name-error {
-	position: absolute;
-	z-index: 1;
 	font-size: 11px;
 	font-weight: 600;
-	text-align: right;
+	position: absolute;
+	z-index: 1;
 	top: 50%;
-	display: block;
 	left: -85px;
+	display: block;
 	padding: 3px 7px 5px 7px;
+	text-align: right;
 	text-transform: lowercase;
+	color: #9c543a;
 	border-top: 1px solid #f7c0ad;
 	border-bottom: 1px solid #cb6945;
-	color: #9c543a;
-	text-shadow: 0px 1px 0px #ebb28e, 0px -1px 0px #812300;
 	border-radius: 7px;
 	background: #f3a58b;
 	background: linear-gradient(to bottom, #f3a58b 0%, #d67c5a 100%);
+	text-shadow: 0 1px 0 #ebb28e, 0 -1px 0 #812300;
 	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a58b', endColorstr='#d67c5a',GradientType=0 ); }
+	&:after {
+		position: absolute;
+		top: 8px;
+		right: -4px;
+		width: 7px;
+		height: 7px;
+		content: " ";
+		transform: rotate(45deg);
+		background: #e48e70;
+	}
 }
 
 #input-email-error {
-	position: absolute;
-	z-index: 1;
 	font-size: 11px;
 	font-weight: 600;
-	text-align: right;
+	position: absolute;
+	z-index: 1;
 	top: 50%;
-	display: block;
 	left: 411px;
+	display: block;
 	padding: 3px 7px 5px 7px;
+	text-align: right;
 	text-transform: lowercase;
+	color: #9c543a;
 	border-top: 1px solid #f7c0ad;
 	border-bottom: 1px solid #cb6945;
-	color: #9c543a;
-	text-shadow: 0px 1px 0px #ebb28e, 0px -1px 0px #812300;
 	border-radius: 7px;
 	background: #f3a58b;
 	background: linear-gradient(to bottom, #f3a58b 0%, #d67c5a 100%);
+	text-shadow: 0 1px 0 #ebb28e, 0 -1px 0 #812300;
 	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a58b', endColorstr='#d67c5a',GradientType=0 ); }
+	&:before {
+		position: absolute;
+		top: 8px;
+		left: -4px;
+		width: 7px;
+		height: 7px;
+		content: " ";
+		transform: rotate(45deg);
+		background: #e48e70;
+	}
+}
+
+#input-msg-error {
+	font-size: 11px;
+	font-weight: 600;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: -84px;
+	display: block;
+	padding: 3px 7px 5px 7px;
+	text-align: right;
+	text-transform: lowercase;
+	color: #9c543a;
+	border-top: 1px solid #f7c0ad;
+	border-bottom: 1px solid #cb6945;
+	border-radius: 7px;
+	background: #f3a58b;
+	background: linear-gradient(to bottom, #f3a58b 0%, #d67c5a 100%);
+	text-shadow: 0 1px 0 #ebb28e, 0 -1px 0 #812300;
+	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a58b', endColorstr='#d67c5a',GradientType=0 ); }
+	&:after {
+		position: absolute;
+		top: 8px;
+		right: -4px;
+		width: 7px;
+		height: 7px;
+		content: " ";
+		transform: rotate(45deg);
+		background: #e48e70;
+	}
+}
+
+#input-code-error {
+	font-size: 11px;
+	font-weight: 600;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 411px;
+	display: block;
+	padding: 3px 7px 5px 7px;
+	text-align: right;
+	text-transform: lowercase;
+	color: #9c543a;
+	border-top: 1px solid #f7c0ad;
+	border-bottom: 1px solid #cb6945;
+	border-radius: 7px;
+	background: #f3a58b;
+	background: linear-gradient(to bottom, #f3a58b 0%, #d67c5a 100%);
+	text-shadow: 0 1px 0 #ebb28e, 0 -1px 0 #812300;
+	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a58b', endColorstr='#d67c5a',GradientType=0 ); }
+	&:before {
+		content: " ";
+		position: absolute;
+		top: 8px;
+		left: -4px;
+		width: 7px;
+		height: 7px;
+		transform: rotate(45deg);
+		background: #e48e70;
+	}
 }
 
 /*=====  End of Feedback tooltips  ======*/
 
+/*=========================================
+=            Add project tooltips            =
+=========================================*/
+#input-project-name-error {
+	font-size: 11px;
+	font-weight: 600;
+	opacity: 1;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: -118px;
+	display: block;
+	padding: 3px 7px 5px 7px;
+	text-align: right;
+	text-transform: lowercase;
+	color: #9c543a;
+	border-top: 1px solid #f7c0ad;
+	border-bottom: 1px solid #cb6945;
+	border-radius: 7px;
+	background: #f3a58b;
+	background: linear-gradient(to bottom, #f3a58b 0%, #d67c5a 100%);
+	text-shadow: 0 1px 0 #ebb28e, 0 -1px 0 #812300;
+	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a58b', endColorstr='#d67c5a',GradientType=0 ); }
+	&:after {
+		position: absolute;
+		top: 8px;
+		right: -4px;
+		width: 7px;
+		height: 7px;
+		content: " ";
+		transform: rotate(45deg);
+		background: #e48e70;
+	}		
+}
+
+#input-project-img-file-error {
+	font-size: 11px;
+	font-weight: 600;
+	opacity: 1;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: -95px;
+	display: block;
+	padding: 3px 7px 5px 7px;
+	text-align: right;
+	text-transform: lowercase;
+	color: #9c543a;
+	border-top: 1px solid #f7c0ad;
+	border-bottom: 1px solid #cb6945;
+	border-radius: 7px;
+	background: #f3a58b;
+	background: linear-gradient(to bottom, #f3a58b 0%, #d67c5a 100%);
+	text-shadow: 0 1px 0 #ebb28e, 0 -1px 0 #812300;
+	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a58b', endColorstr='#d67c5a',GradientType=0 ); }
+	&:after {
+		position: absolute;
+		top: 8px;
+		right: -4px;
+		width: 7px;
+		height: 7px;
+		content: " ";
+		transform: rotate(45deg);
+		background: #e48e70;
+	}	
+}
+
+#input-project-url-error {
+	font-size: 11px;
+	font-weight: 600;
+	opacity: 1;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: -115px;
+	display: block;
+	padding: 3px 7px 5px 7px;
+	text-align: right;
+	text-transform: lowercase;
+	color: #9c543a;
+	border-top: 1px solid #f7c0ad;
+	border-bottom: 1px solid #cb6945;
+	border-radius: 7px;
+	background: #f3a58b;
+	background: linear-gradient(to bottom, #f3a58b 0%, #d67c5a 100%);
+	text-shadow: 0 1px 0 #ebb28e, 0 -1px 0 #812300;
+	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a58b', endColorstr='#d67c5a',GradientType=0 ); }
+	&:after {
+		position: absolute;
+		top: 8px;
+		right: -4px;
+		width: 7px;
+		height: 7px;
+		content: " ";
+		transform: rotate(45deg);
+		background: #e48e70;
+	}
+}
+#input-project-description-error {
+	font-size: 11px;
+	font-weight: 600;
+	opacity: 1;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: -122px;
+	display: block;
+	padding: 3px 7px 5px 7px;
+	text-align: right;
+	text-transform: lowercase;
+	color: #9c543a;
+	border-top: 1px solid #f7c0ad;
+	border-bottom: 1px solid #cb6945;
+	border-radius: 7px;
+	background: #f3a58b;
+	background: linear-gradient(to bottom, #f3a58b 0%, #d67c5a 100%);
+	text-shadow: 0 1px 0 #ebb28e, 0 -1px 0 #812300;
+	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a58b', endColorstr='#d67c5a',GradientType=0 ); }
+	&:after {
+		position: absolute;
+		top: 8px;
+		right: -4px;
+		width: 7px;
+		height: 7px;
+		content: " ";
+		transform: rotate(45deg);
+		background: #e48e70;
+	}
+}
+
+
+/*=====  End of Add project tooltips  ======*/
 input, textarea {
-	&.error{
-		outline: 1px solid #e0ac99
+	&.error {
+		outline: 1px solid #e0ac99;
 	}
 }

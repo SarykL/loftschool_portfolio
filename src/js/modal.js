@@ -7,6 +7,18 @@
 				positionStyle: 'fixed',
 				transition: 'slideDown',
 				onClose: function () {
+					this.find("#input-name").removeClass("error");
+					this.find("#input-name").removeClass("valid");
+					this.find("#input-name-error").remove();
+					this.find("#input-email").removeClass("error");
+					this.find("#input-email").removeClass("valid");
+					this.find("#input-email-error").remove();
+					this.find("#input-msg").removeClass("error");
+					this.find("#input-msg").removeClass("valid");
+					this.find("#input-msg-error").remove();
+					this.find("#input-code").removeClass("error");
+					this.find("#input-code").removeClass("valid");
+					this.find("#input-code-error").remove();
 					this.find('.new-project-form').trigger("reset");
             	}
 			});

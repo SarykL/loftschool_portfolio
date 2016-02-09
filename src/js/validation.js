@@ -6,7 +6,8 @@
 				required: true
 			},
 			input_email: {
-				required: true
+				required: true,
+				email: false
 			},
 			input_msg: {
 				required: true
@@ -15,12 +16,14 @@
 				required: true
 			}
 		},
+		onfocusout: false,
 		messages: {
 			input_name: "Введите имя",
 			input_email: "Введите email",
 			input_msg: "Ваш вопрос",
 			input_code: "Код с капчи"
-		},
+		}
+
 	});
 
 	$('#new-project-form').validate({
@@ -40,16 +43,25 @@
 		},
 		messages: {
 			input_project_name: "введите название",
-			input_project_img: "изображение",
+			input_project_img_file: "изображение",
 			input_project_url: "ссылка на проект",
 			input_project_description: "описание проекта"
+		},
+		invalidHandler: function(event, validator) {
+			var errors = validator.numberOfInvalids();
+			if (errors) {
+				$(".add_proj_error").show();
+			} else {
+				$(".add_proj_error").hide();
+			}
 		}
 	});
 };
 
 validate();
 
-var clearForm = function() {
+
+var clearFeedbackForm = function() {
 	$(".reset-btn").on("click", function() {
 		$("#input-name").removeClass("error");
 		$("#input-name").removeClass("valid");
@@ -66,4 +78,23 @@ var clearForm = function() {
 	});
 };
 
-clearForm();
+clearFeedbackForm();
+
+var clearAddProjectForm = function() {
+	$(".b-close").on("click", function() {
+		$("#input-project-name").removeClass("error");
+		$("#input-project-name").removeClass("valid");
+		$("#input-project-name-error").remove();
+		$("#input-project-img-file").removeClass("error");
+		$("#input-project-img-file").removeClass("valid");
+		$("#input-project-img-file-error").remove();
+		$("#input-project-url").removeClass("error");
+		$("#input-project-url").removeClass("valid");
+		$("#input-project-url-error").remove();
+		$("#input-project-description").removeClass("error");
+		$("#input-project-description").removeClass("valid");
+		$("#input-project-description-error").remove();
+	});
+};
+
+clearAddProjectForm();
