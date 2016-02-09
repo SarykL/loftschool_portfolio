@@ -1,0 +1,53 @@
+/*=========================================
+=            Feedback tooltips            =
+=========================================*/
+
+#input-name-error {
+	position: absolute;
+	z-index: 1;
+	font-size: 11px;
+	font-weight: 600;
+	text-align: right;
+	top: 50%;
+	display: block;
+	left: -85px;
+	padding: 3px 7px 5px 7px;
+	text-transform: lowercase;
+	border-top: 1px solid #f7c0ad;
+	border-bottom: 1px solid #cb6945;
+	color: #9c543a;
+	text-shadow: 0px 1px 0px #ebb28e, 0px -1px 0px #812300;
+	border-radius: 7px;
+	background: #f3a58b;
+	background: linear-gradient(to bottom, #f3a58b 0%, #d67c5a 100%);
+	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a58b', endColorstr='#d67c5a',GradientType=0 ); }
+}
+
+#input-email-error {
+	position: absolute;
+	z-index: 1;
+	font-size: 11px;
+	font-weight: 600;
+	text-align: right;
+	top: 50%;
+	display: block;
+	left: 411px;
+	padding: 3px 7px 5px 7px;
+	text-transform: lowercase;
+	border-top: 1px solid #f7c0ad;
+	border-bottom: 1px solid #cb6945;
+	color: #9c543a;
+	text-shadow: 0px 1px 0px #ebb28e, 0px -1px 0px #812300;
+	border-radius: 7px;
+	background: #f3a58b;
+	background: linear-gradient(to bottom, #f3a58b 0%, #d67c5a 100%);
+	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a58b', endColorstr='#d67c5a',GradientType=0 ); }
+}
+
+/*=====  End of Feedback tooltips  ======*/
+
+input, textarea {
+	&.error{
+		outline: 1px solid #e0ac99
+	}
+}

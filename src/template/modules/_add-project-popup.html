@@ -1,9 +1,9 @@
 	<div class="add-project-popup-window clearfix" id="add-project-popup">
 		<a href="#" class="close-popup b-close">x</a>
-		<form class="new-project-form">
+		<form class="new-project-form" id="new-project-form">
 			<div class="new-project-input">
 				<label for="input-project-name" class="input-label">Название проекта</label>
-				<input type="text" class="input-project-name" id="input-project-name" placeholder="Введите название">
+				<input type="text" class="input-project-name" name="input_project_name" id="input-project-name" placeholder="Введите название">
 			</div>
 			<div class="new-project-input clearfix">
 				<label for="input-project-img" class="input-label">Картинка проекта</label>
@@ -12,16 +12,16 @@
 						<input type="text" class="input-project-img" id="input-project-img" placeholder="Загрузите изображение" disabled>
 						<button class="project-btn-upload"><i class="icloud-icon"></i></button>
 					</div>
-					<input type="file" class="input-project-img-file" id="input-project-img-file">
+					<input type="file" class="input-project-img-file" name="input_project_img_file" id="input-project-img-file">
 				</div>
 			</div>
 			<div class="new-project-input">
 				<label for="input-project-url" class="input-label">URL проекта</label>
-				<input type="text" class="input-project-url" id="input-project-url" placeholder="Добавьте ссылку">
+				<input type="text" class="input-project-url" name="input_project_url" id="input-project-url" placeholder="Добавьте ссылку">
 			</div>
 			<div class="new-project-input">
 				<label for="input-project-description" class="input-label">Описание</label>
-				<textarea id="input-project-description" class="input-project-description" placeholder="Пара слов о вашем проекте"></textarea>
+				<textarea id="input-project-description" name="input_project_description" class="input-project-description" placeholder="Пара слов о вашем проекте"></textarea>
 			</div>
 			<div class="new-project-input">
 				<input class="new-project-btn submit-btn" type="submit" value="Добавить">
