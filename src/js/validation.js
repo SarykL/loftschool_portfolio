@@ -50,9 +50,9 @@
 		invalidHandler: function(event, validator) {
 			var errors = validator.numberOfInvalids();
 			if (errors) {
-				$(".add_proj_error").show();
+				$(".add-project-error").show();
 			} else {
-				$(".add_proj_error").hide();
+				$(".add-project-error").hide();
 			}
 		}
 	});
@@ -80,7 +80,7 @@ var clearFeedbackForm = function() {
 
 clearFeedbackForm();
 
-var clearAddProjectForm = function() {
+/*var clearAddProjectForm = function() {
 	$(".b-close").on("click", function() {
 		$("#input-project-name").removeClass("error");
 		$("#input-project-name").removeClass("valid");
@@ -94,7 +94,8 @@ var clearAddProjectForm = function() {
 		$("#input-project-description").removeClass("error");
 		$("#input-project-description").removeClass("valid");
 		$("#input-project-description-error").remove();
+		$("#add-project-error").hide();
 	});
 };
 
-clearAddProjectForm();
+clearAddProjectForm();*/

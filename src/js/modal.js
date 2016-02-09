@@ -7,19 +7,20 @@
 				positionStyle: 'fixed',
 				transition: 'slideDown',
 				onClose: function () {
-					this.find("#input-name").removeClass("error");
-					this.find("#input-name").removeClass("valid");
-					this.find("#input-name-error").remove();
-					this.find("#input-email").removeClass("error");
-					this.find("#input-email").removeClass("valid");
-					this.find("#input-email-error").remove();
-					this.find("#input-msg").removeClass("error");
-					this.find("#input-msg").removeClass("valid");
-					this.find("#input-msg-error").remove();
-					this.find("#input-code").removeClass("error");
-					this.find("#input-code").removeClass("valid");
-					this.find("#input-code-error").remove();
 					this.find('.new-project-form').trigger("reset");
+					$("#input-project-name").removeClass("error");
+					$("#input-project-name").removeClass("valid");
+					$("#input-project-name-error").remove();
+					$("#input-project-img-file").removeClass("error");
+					$("#input-project-img-file").removeClass("valid");
+					$("#input-project-img-file-error").remove();
+					$("#input-project-url").removeClass("error");
+					$("#input-project-url").removeClass("valid");
+					$("#input-project-url-error").remove();
+					$("#input-project-description").removeClass("error");
+					$("#input-project-description").removeClass("valid");
+					$("#input-project-description-error").remove();
+					$("#add-project-error").hide();
             	}
 			});
 		});
