@@ -127,11 +127,42 @@
 	display: none;
 }
 
-.error-p, .error-p-bold {
+.add-project-success {
+	width: 364px;
+	background-color: #f5f4f3;
+	border: 1px solid #c3c2c2;
+	border-radius: 4px;
+	padding-bottom: 15px;
+	position: relative;
+	display: none;
+}
+.success-message {
+	margin: 20px 20px 5px 20px;
+	position: relative;
+	width: 320px;
+	border: 1px solid #49bb7b;
+	background-color: rgba(73, 187, 123, 0.33);
+	border-radius: 6px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+
+.success-p, .success-p-bold {
+	color: #49bb7b;
+
+}
+.error-p, .error-p-bold{
+	color: #cb6945;
+}
+
+.success-p-bold, .error-p-bold{
+	font-family: $font-family-bold;
+}
+
+.error-p, .error-p-bold, .success-p, .success-p-bold {
 	margin: 0;
 	padding-left: 10px;
 	padding-bottom: 3px;
-	color: #cb6945;
 	font-size: 14px;
 }
 

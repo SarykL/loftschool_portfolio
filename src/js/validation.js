@@ -54,8 +54,23 @@
 			} else {
 				$(".add-project-error").hide();
 			}
+		},
+		submitHandler: function (form) {
+			form.submit();
+				
+			/*$("#add-project-success").bPopup({
+				closeClass:'close-succes',
+				speed: 350,
+				positionStyle: 'fixed',
+				transition: 'slideDown',
+			});			
+			}*/
 		}
+
 	});
+
+
+
 };
 
 validate();

@@ -1,9 +1,17 @@
+	<div class="add-project-success" id="add-project-success">
+		<a href="#" class="close-popup b-close close-succes">x</a>
+		<div class="success-message">
+			<p class="success-p-bold">Ура!</p>
+			<p class="success-p">Проект успешно добавлен.</p>
+		</div>
+	</div>	
 	<div class="add-project-popup-window clearfix" id="add-project-popup">
-		<a href="#" class="close-popup b-close">x</a>
+		<a href="#" class="close-popup b-close close-main">x</a>
 		<div class="add-project-error" id="add-project-error">
 			<p class="error-p-bold">Ошибка!</p>
 			<p class="error-p">Невозможно добавить проект.</p>
 		</div>
+
 		<form class="new-project-form" id="new-project-form">
 			<div class="new-project-input">
 				<label for="input-project-name" class="input-label">Название проекта</label>
@@ -13,7 +21,7 @@
 				<label for="input-project-img" class="input-label">Картинка проекта</label>
 				<div class="input-file-wrapper">
 					<div class="input-file-mask">
-						<input type="text" class="input-project-img" name="input_project_img" id="input-project-img" placeholder="Загрузите изображение">
+						<input type="text" class="input-project-img" name="input_project_img" id="input-project-img" placeholder="Загрузите изображение" disabled>
 						<button class="project-btn-upload"><i class="icloud-icon"></i></button>
 					</div>
 					<input type="file" class="input-project-img-file" name="input_project_img_file" id="input-project-img-file">

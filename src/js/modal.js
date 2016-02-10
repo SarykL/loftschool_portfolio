@@ -3,6 +3,7 @@
 		//Открытие popup и сброс содержимого форм при закрытии
 		$('.add-projects-block').click(function(){
 			$('#add-project-popup').bPopup({
+				closeClass: 'close-main',
 				speed: 350,
 				positionStyle: 'fixed',
 				transition: 'slideDown',
