@@ -56,8 +56,7 @@
 			}
 		},
 		submitHandler: function (form) {
-			form.submit();
-				
+			form.submit();				
 			/*$("#add-project-success").bPopup({
 				closeClass:'close-succes',
 				speed: 350,
