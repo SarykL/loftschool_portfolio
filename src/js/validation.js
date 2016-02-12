@@ -54,20 +54,22 @@
 				}
 			},
 			submitHandler: function (form) {
-				$(form).ajaxSubmit();
+				$("#add-project-success").bPopup({
+					speed: 350,
+					transition: 'slideDown',
+					positionStyle: 'fixed',
+					escClose: true,
+					onOpen: function () {
+						$('.b-modal').hide();
+						$('#add-project-popup').hide();
+					},
+					onClose: function () {
+						form.submit();
+					}
+				});
+
 			}
 		});
-		
-/*		var popupSucces = function () {
-			$("#new-project-form").submit(function (e) {
-				e.preventDefault();
-				$("#add-project-success").bPopup({
-					closeClass:'close-success',
-					positionStyle: 'fixed',
-				});
-			});
-		};
-popupSucces();*/
 
 		var clearFeedbackForm = function() {
 			$(".reset-btn").on("click", function() {
@@ -85,9 +87,9 @@ popupSucces();*/
 				$("#input-code-error").remove();
 			});
 		};	
-clearFeedbackForm();
+	clearFeedbackForm();
 
-});
+	});
 
 };
 

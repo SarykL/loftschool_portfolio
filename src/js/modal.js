@@ -6,6 +6,7 @@
 				closeClass: 'close-main',
 				speed: 350,
 				positionStyle: 'fixed',
+				escClose: true,
 				transition: 'slideDown',
 				onClose: function () {
 					this.find('.new-project-form').trigger("reset");
